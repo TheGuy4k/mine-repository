@@ -1,0 +1,30 @@
+Description of "My Theme" from the Calculator Project
+
+Your custom "my-mode" theme is a sleek, dark interface with a semi-transparent design and a striking blue ocean waves background. Here's a detailed breakdown of its characteristics:
+Color Scheme
+
+    Primary Background: rgba(20, 20, 20, 0.95) (very dark gray with 95% opacity)
+
+    Secondary Background: rgba(30, 30, 30, 0.9) (slightly lighter dark gray with 90% opacity)
+
+    Text Color: #ffffff (pure white)
+
+    Number Buttons: rgba(50, 50, 50, 0.8) (medium-dark gray with 80% opacity)
+
+    Operator Buttons: rgba(255, 255, 255, 0.9) (white with 90% opacity)
+
+    Border: Transparent (var(--border-color): transparent)
+
+Visual Effects
+
+    Background Image: A beautiful blue dark sea waves image that creates a striking contrast with the semi-transparent UI elements
+
+    Blur Effect: backdrop-filter: blur(8px) applied to calculator elements for a frosted glass effect
+
+    Minimal Borders: Uses subtle rgba(255, 255, 255, 0.2) borders only where needed
+
+Button States
+
+    Hover States: All buttons lighten slightly when hovered (e.g., numbers go from rgba(50, 50, 50, 0.8) to rgba(70, 70, 70, 0.8))
+
+    Operator Buttons: Maintain high contrast with pure white/light gray colors
